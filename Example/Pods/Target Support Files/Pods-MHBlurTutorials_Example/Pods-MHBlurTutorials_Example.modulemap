@@ -1,0 +1,6 @@
+framework module Pods_MHBlurTutorials_Example {
+  umbrella header "Pods-MHBlurTutorials_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
