@@ -22,7 +22,7 @@ pod "MHBlurTutorials"
 
 ## Author
 
-Mathilde Henriot, mathilde.henriot@app-tizr.com
+Mathilde Henriot, me@mathilde-henriot.com
 
 ## License
 

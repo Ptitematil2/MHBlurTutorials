@@ -16,12 +16,38 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-5-home-screen-ios-7.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="t2s-UX-WWB">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfv-tG-uZL">
+                                <rect key="frame" x="233" y="8" width="134" height="30"/>
+                                <state key="normal" title="Launch Tutorials">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="displayTutorials:" destination="whP-gf-Uak" eventType="touchUpInside" id="Lon-Fb-apC"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t2s-UX-WWB" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="45o-Og-muj"/>
+                            <constraint firstAttribute="trailing" secondItem="t2s-UX-WWB" secondAttribute="trailing" id="Rxx-39-sNf"/>
+                            <constraint firstAttribute="centerX" secondItem="Cfv-tG-uZL" secondAttribute="centerX" id="Tdu-xh-LwE"/>
+                            <constraint firstItem="t2s-UX-WWB" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="top" id="cWN-pb-Opy"/>
+                            <constraint firstItem="Cfv-tG-uZL" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="fmi-Qj-llo"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="t2s-UX-WWB" secondAttribute="bottom" id="xIC-ik-928"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="351" y="376"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iphone-5-home-screen-ios-7.jpg" width="834" height="1484"/>
+    </resources>
 </document>
