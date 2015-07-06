@@ -1,0 +1,14 @@
+PODS:
+  - MHBlurTutorials (0.1.0)
+
+DEPENDENCIES:
+  - MHBlurTutorials (from `/Users/Ptitematil2/MHBlurTutorials/MHBlurTutorials.podspec`)
+
+EXTERNAL SOURCES:
+  MHBlurTutorials:
+    :path: /Users/Ptitematil2/MHBlurTutorials/MHBlurTutorials.podspec
+
+SPEC CHECKSUMS:
+  MHBlurTutorials: ef913f56880a2a7d9194c9d0c59da705456e500f
+
+COCOAPODS: 0.36.1
