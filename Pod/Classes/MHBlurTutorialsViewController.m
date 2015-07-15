@@ -30,6 +30,7 @@
     self.explanationLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 30)];
     self.explanationLabel.textAlignment = NSTextAlignmentCenter;
     self.explanationLabel.textColor = [UIColor whiteColor];
+    self.explanationLabel.numberOfLines = 0;
     
     [self.holeView addSubview:self.explanationLabel];
     
@@ -104,6 +105,12 @@
     self.holeView.layer.mask = maskLayer;
     
     self.explanationLabel.text = self.animationsArray[index][@"text"];
+    
+    CGSize size = [self.explanationLabel sizeThatFits:CGSizeMake(self.view.frame.size.width-20, CGFLOAT_MAX)];
+    CGRect frame = self.explanationLabel.frame;
+    frame.size.height = size.height;
+    self.explanationLabel.frame = frame;
+    
     self.explanationLabel.center = [self.animationsArray[index][@"textCenter"] CGPointValue];
     
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"path"];
