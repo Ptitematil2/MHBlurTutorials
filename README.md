@@ -11,7 +11,7 @@ MHBlurTutorials allows you to highlight some elements and display explanation te
 
 ## Version
 
-0.0.1
+0.1.2
 
 ## Installation
 
@@ -46,11 +46,12 @@ homeTutorialController.modalTransitionStyle = UIModalTransitionStyleCrossDissolv
             
             ...
     ]
+
+    [homeTutorialController setBackgroundColor:[UIColor colorWithWhite:0 alpha:0.7]];
+    [homeTutorialController setExplanationLabelFont:[UIFont fontWithName:@"Source Sans Pro" size:15]];
+    [homeTutorialController displayTutorial];
 ];
 
-[homeTutorialController setBackgroundColor:[UIColor colorWithWhite:0 alpha:0.7]];
-[homeTutorialController setExplanationLabelFont:[UIFont fontWithName:@"Source Sans Pro" size:15]];
-[homeTutorialController displayTutorial];
 ```
 
 ## Author

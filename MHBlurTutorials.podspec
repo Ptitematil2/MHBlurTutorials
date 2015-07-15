@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MHBlurTutorials"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "MHBlurTutorials Library"
   s.description      = <<-DESC
                         MHBlurTutorials allows you to highlight some elements and display explanation text
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.screenshots      = "http://i.imgur.com/ZClWBXg.png"
   s.license          = 'MIT'
   s.author           = { "Mathilde Henriot" => "me@mathilde-henriot.com" }
-  s.source           = { :git => "https://github.com/Ptitematil2/MHBlurTutorials.git", :tag => "0.1.1" }
+  s.source           = { :git => "https://github.com/Ptitematil2/MHBlurTutorials.git", :tag => "0.1.2" }
   s.social_media_url = 'https://twitter.com/Ptitematil2'
 
   s.platform     = :ios, '7.0'
